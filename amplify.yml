@@ -9,7 +9,7 @@ frontend:
         - yarn run build
   artifacts:
     # baseDirectory: /
-    baseDirectory: .keystone/admin/.next
+    baseDirectory: .keystone/admin/pages
     files:
       - "**/*"
   cache:
